@@ -1,0 +1,17 @@
+/*
+In sass we can declare variable
+*/
+
+// declare variable
+$nameColor: red;
+$backgroundColor: green;
+$padding: 10px;
+$marginTop: 5px;
+
+// use variables inside class
+.TextStyle{
+    color: $nameColor;
+    background-color: $backgroundColor;
+    padding: $padding;
+    margin-top: $marginTop;
+}

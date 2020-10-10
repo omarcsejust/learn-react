@@ -12,6 +12,10 @@ import SassDemo from './components/css-fundamentals/SassComponent';
 
 import AxiosReqComponent from './components/http-request/AxiosReqComponent';
 
+import RouterNavigation from './components/router/RouterNavigation';
+import Routes from './components/router/Routes';
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -29,6 +33,11 @@ function App() {
       <SassDemo></SassDemo>
 
       <AxiosReqComponent></AxiosReqComponent>
+
+      <BrowserRouter>
+        <RouterNavigation></RouterNavigation>
+        <Routes></Routes>
+      </BrowserRouter>
 
     </div>
   );
